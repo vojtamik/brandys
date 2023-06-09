@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+
+
+
+ 
+
+
+
+    <table class="dotaznik">
+        <h1>Dotazník</h1>
+        <form>
+    <tr class="bila">
+        <td>
+            <label for="otazka1">Jaké je vaše křestní jméno:</label>
+        </td>
+        <td>
+            <input type="text" name="otazka1" id="jmeno" required>
+        </td>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="otazka1,5">Jaké je vaše příjmení:</label>
+        </td>
+        <td>
+            <input type="text" name="otazka1,5" id="prijmeni" required>
+        </td>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="otakza2">Kolik je vám let?</label>
+        </td>
+        <td>
+            <input type="number" name="otazka2" id="vek" min="15" max="120" required>
+        </td>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="pohlavi">Pohlaví</label>
+        </td>
+        <td>
+            <label for="pohlavi">Muž</label>
+            <input type="radio" name="pohlavi" id="Muž" value="Muž">
+            <label for="pohlavi">Žena</label>
+            <input type="radio" name="pohlavi" id="Žena" value="Žena">
+            <label for="pohlavi">Jiné</label>
+            <input type="radio" name="pohlavi" id="Jiné" value="Jiné">
+
+        </td>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="otakza3">Hrajete volejbal?</label>
+            
+        </td>
+        <td>
+            <input type="radio" name="otakza3" id="ano">Ano
+            <input type="radio" name="otakza3" id="ne">Ne
+        </td>
+    </tr>
+
+    <tr class="bila">
+        <td>
+            <label for="otazka4">Hráli jste někdy volejbal?</label>
+        </td>
+        <td>
+            <input type="radio" name="otazka4" id="ano">Ano
+            <input type="radio" name="otazka4" id="ne">Ne
+        </td>
+    </tr>
+
+    
+    <tr class="bila">
+        <td>
+            <label for="fanousci">Komu fandíte:</label>
+        </td>
+        <td>
+            <label for="fanousci">Zabijáci</label>
+            <input type="radio" name="fanousci" id="zabijaci"><br>
+            <label for="fanousci">Dinosauři</label>
+            <input type="radio" name="fanousci" id="dinosauri"><br>
+            <label for="fanousci">Kryptošlechtici</label>
+            <input type="radio" name="fanousci" id="Kryptoslechtici"><br>
+            <label for="fanousci">Anakondy</label>
+            <input type="radio" name="fanousci" id="anakondy">
+        </td>
+    </tr>
+    <tr>
+
+        <td><label for="seznam">Kolik lidí je třeba na jeden tým?</label></td>
+        <td>
+            <select>
+            <ol>
+                
+                <option>Jeden</option>
+                <option>Dva</li>
+                <option>Tři</option>
+                <option>Čtyři</option>
+                <option>Pět</option>
+                <option>Šest</option>
+
+
+            </ol>
+
+
+        
+        </td>
+            </select>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="otakza6">Máte nějaké otázky?</label>
+        </td>
+        <td>
+            <textarea name="otazka6" id="otazky" cols="20" rows="5" maxlength="80"></textarea>
+        </td>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="email">Zadejte email na který chcete zaslat odpověď:</label>
+        </td>
+        <td>
+            <input type="email" name="email" id="email">
+        </td>
+    </tr>
+    <tr class="bila">
+        <td>
+            <label for="odeslat"></label>
+            <input type="submit" value="odeslat">
+        </td>
+        <td>
+            <label for="restartovat"></label>
+            <input type="reset" value="restartovat">
+        </td>
+    </tr>
+    </form>
+    </table>
+    
+
+
+
+
+
+    <br>
+    <div class="navigace">
+        <div class="lista">
+            <a href="index.html"><button class="navbutton">Volejbal</button></a>
+        </div>
+        <div class="lista">
+            <a href="druha.html"><button class="navbutton">Pravidla</button></a>
+        </div>
+        <div class="lista">
+            <a href="treti.html"><button class="navbutton">Zápas</button></a>
+        </div>
+        <div class="lista">
+            <a href="ctvrta.html"><button class="navbutton">Věkové kategorie</button></a>
+        </div>
+        <div class="lista">
+            <a href="pata.html"><button class="navbutton">Dotazník</button></a>
+        </div>
+
+
+
+
+
+        <div class="stranky">
+           <div class="predchozi problem1">
+                <a href="ctvrta.html" class="odkaz"><button class="next">předchozí strana</button></a>
+           </div>
+            <div class="dalsi">
+                <a href="index.html" class="odkaz"><button class="next">první strana</button></a>
+            </div>
+        </div>
+</body>
+</html>
