@@ -88,7 +88,7 @@ a:hover{
 
 }
 body{
-    background-image: url(/volejbal_1.jpg) ;
+    background-image: url(./../volejbal_1.jpg) ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -109,7 +109,7 @@ text-align: center;
     border: solid 1px black;
     background-repeat: no-repeat;
     background-position:center;
-    background-image: url(/serial-killer.png);
+    background-image: url(./../serial-killer.png);
     background-size: 40%;
     
     
@@ -119,13 +119,13 @@ text-align: center;
     border: solid 1px black;
     background-repeat: no-repeat;
     background-position:center;
-    background-image: url(/dinosaur.jpg);
+    background-image: url(./../dinosaur.jpg);
     background-size: 35%;
 }
 .tri{
     flex: 1;
     border: solid 1px black;
-    background-image: url(/bitcoin.png);
+    background-image: url(./../bitcoin.png);
     background-repeat: no-repeat;
     background-position:center;
     background-size: 40%;
@@ -135,7 +135,7 @@ text-align: center;
 .ctyri{
     flex: 1;
     border: solid 1px black;
-    background-image: url(/snake.png) ;
+    background-image: url(./../snake.png) ;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position:center;
@@ -143,7 +143,7 @@ text-align: center;
 
 }
 .obrazek{
-    background-image:url(/zapas.jpg);
+    background-image:url(./../zapas.jpg);
     flex: 2;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ text-align: center;
     border: solid 1px black;
     height: 74%;
     text-align: center;
-    background-image: url(/volejbal2.jpg);
+    background-image: url(./../volejbal2.jpg);
     background-repeat: no-repeat;
     background-size: 160px;
     background-position: bottom, center;
@@ -362,7 +362,7 @@ h1{
 }
 .ctvrtyobraz{
     margin: auto;
-    background-image: url(/image_282.jpg);
+    background-image: url(./../image_282.jpg);
     background-repeat: no-repeat;
     width: 70%;
     height: 400px;
